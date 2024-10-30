@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.site_head {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px #ccc;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.menu_list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_list a {
+  color: #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+  .menu {
+    background-color: #fff;
+    position: fixed;
+    top: 76px;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+
+  .menu_list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
