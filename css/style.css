@@ -22,6 +22,7 @@ body {
 }
 
 .hamburgar {
+  display: none;
   width: 30px;
   height: 30px;
   position: relative;
@@ -72,6 +73,10 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+  .hamburgar {
+    display: block;
+  }
+  
   .menu {
     background-color: #fff;
     position: fixed;
