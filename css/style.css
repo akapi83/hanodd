@@ -21,6 +21,39 @@ body {
   font-size: 24px;
 }
 
+.hamburgar {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: auto;
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.hamburgar_bar {
+  display: block;
+  width: 80%;
+  height: 4px;
+  background-color: #000;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hamburgar_bar:nth-child(1) {
+  top: calc(50% - 8px);
+}
+
+.hamburgar_bar:nth-child(2) {
+  top: 50%;
+}
+
+.hamburgar_bar:nth-child(3) {
+  top: calc(50% + 8px);
+}
+
 .menu {
   margin-left: auto;
 }
