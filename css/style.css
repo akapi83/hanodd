@@ -76,30 +76,10 @@ body {
   text-decoration: none;
 }
 
-.main_visual {
-  aspect-ratio: 32/15;
-  background-image: url(../img/main.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* ここからメインビジュアル */
 
 .catchcopy {
-  margin: 0;
   font-size: 60px;
-  text-align: center;
-  text-shadow: 0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff;
 }
 
 @media screen and (max-width: 550px) {
@@ -119,15 +99,6 @@ body {
   .menu_list {
     flex-direction: column;
     gap: 10px;
-  }
-
-  .main_visual {
-    aspect-ratio: initial;
-    height: calc(100vh - 76px);
-  }
-
-  .catchcopy {
-    font-size: 35px; 
   }
 
 }
