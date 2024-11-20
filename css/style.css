@@ -78,6 +78,10 @@ body {
 
 /* ここからメインビジュアル */
 
+.main_visual img {
+  width: 100%;
+}
+
 .catchcopy {
   font-size: 60px;
 }
