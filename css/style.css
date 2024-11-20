@@ -78,12 +78,24 @@ body {
 
 /* ここからメインビジュアル */
 
+.main_visual {
+  position: relative;
+}
+
 .main_visual img {
   width: 100%;
 }
 
 .catchcopy {
   font-size: 60px;
+  margin: 0;
+  color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 550px) {
