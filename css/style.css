@@ -89,7 +89,8 @@ body {
 .catchcopy {
   font-size: 60px;
   margin: 0;
-  color: gray;
+  color: #fff;
+  text-shadow: 0 0 5px #000,0 0 5px #000,0 0 5px #000;
   position: absolute;
   top: 50%;
   left: 50%;
