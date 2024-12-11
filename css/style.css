@@ -90,13 +90,59 @@ body {
   font-size: 60px;
   margin: 0;
   color: #fff;
-  text-shadow: 0 0 5px #000,0 0 5px #000,0 0 5px #000;
+  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
+}
+
+.title_h2 {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.title_h2::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background-color: #7AD5F6;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.happy_wrap {
+  background-color: #E4F5FF;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  max-width: 1000px;
+  margin-inline: auto;
+  margin-top: 40px;
+}
+
+.happy_wrap .img_box {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.img_box img {
+  width: 100%;
+}
+
+.text_box h3 {
+  font-size: 30px;
+}
+
+.text_box p {
+  font-size: 18px;
 }
 
 @media screen and (max-width: 550px) {
